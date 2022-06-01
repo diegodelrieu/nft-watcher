@@ -1,0 +1,25 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "ts-node deploy-command.ts",
+    "start": "ts-node  index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.11.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.1",
+    "eth-provider": "^0.11.2",
+    "ethers": "^5.6.8",
+    "node-fetch": "^2.6.7",
+    "ts-node": "^10.7.0",
+    "twit": "^2.2.11"
+  }
+}

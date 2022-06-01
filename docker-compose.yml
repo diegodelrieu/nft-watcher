@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  bot:
+    build:
+      context: ./
+    command: npm run start
+    ports:
+      - "3000:3000"
+    environment:
+      # Discord token from the discord dev
+      DISCORD_TOKEN: ${DISCORD_TOKEN}
+      # Discord channel where you want the messages to be posted
+      DISCORD_CHANNEL: ${DISCORD_CHANNEL}
+      # this is your NFT contract address
+      # this one is good for testing
+      # CONTRACT_ADDRESS=0xA95579592078783B409803Ddc75Bb402C217A924
+      # this one is cryptotesters
+      CONTRACT_ADDRESS: ${CONTRACT_ADDRESS}
+      # your network, leave blank for ethereum 
+      NETWORK: ${NETWORK}
+      # the url to the marketplace
+      PLATFORM_URL: ${PLATFORM_URL}
+
+

@@ -1,0 +1,22 @@
+TWITTER_CONSUMER_KEY=
+TWITTER_TOKEN_SECRET=
+TWITTER_CONSUMER_SECRET=
+TWITTER_ACCESS_TOKEN=
+
+# Discord token from the discord dev
+DISCORD_TOKEN=
+# Discord channel where you want the messages to be posted
+DISCORD_CHANNEL=
+
+# this is your NFT contract address
+# this one is good for testing
+# CONTRACT_ADDRESS=0xA95579592078783B409803Ddc75Bb402C217A924
+# this one is cryptotesters
+CONTRACT_ADDRESS=0x18a1bC18cEfdc952121F319039502FDD5f48B6fF
+
+# your network, leave blank for ethereum 
+NETWORK=optimism
+
+# the url to the marketplace
+PLATFORM_URL=
+
